@@ -1,0 +1,23 @@
+{
+  "name": "pathfinder",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start index.js --name path",
+    "prettier": "npx prettier check *"
+  },
+  "author": "Shadow",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "array-pull": "^0.2.1",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^8.2.0",
+    "ms": "^2.0.0",
+    "node-cmd": "^4.0.0",
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
