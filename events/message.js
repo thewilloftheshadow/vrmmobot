@@ -6,7 +6,7 @@ const prefix = config.prefix
 
 module.exports = (client) => {
   //When receiving a message
-  client.on("message", (message) => {
+  client.on("messageCreate", (message) => {
     
     if (message.author.bot) return //Ignore bots and dms    
 
