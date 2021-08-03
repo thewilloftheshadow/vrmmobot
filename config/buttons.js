@@ -10,12 +10,14 @@ const buttons = {
     bdo: new MessageButton().setStyle("SUCCESS").setLabel("Black Desert Online").setCustomId(`roletoggle:${ids.platforms.bdo}`),
     vrchurch: new MessageButton().setStyle("SUCCESS").setLabel("VR Church").setCustomId(`roletoggle:${ids.sections.vrchurch}`),
     mmochurch: new MessageButton().setStyle("SUCCESS").setLabel("MMO Church").setCustomId(`roletoggle:${ids.sections.mmochurch}`),
+    ff14spoilers: new MessageButton().setStyle("DANGER").setLabel("FFXIV Spoilers").setCustomId(`roletoggle:${ids.others.ff14spoilers}`),
 }
 
 const rows = {
     mmop: new MessageActionRow().addComponents(buttons.rust, buttons.ff14, buttons.bdo),
     vrcp: new MessageActionRow().addComponents(buttons.altspacevr, buttons.vrchat, buttons.recroom),
-    sections: new MessageActionRow().addComponents(buttons.vrchurch, buttons.mmochurch)
+    sections: new MessageActionRow().addComponents(buttons.vrchurch, buttons.mmochurch),
+    other: new MessageActionRow().addComponents(buttons.ff14spoilers),
 }
 
 module.exports = {

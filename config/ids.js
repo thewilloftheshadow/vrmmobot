@@ -12,6 +12,11 @@ const sections = {
     mmochurch: "852256783102771285"
 }
 
+const others = {
+    ff14spoilers: "870090774585442364",
+}
+
+
 module.exports = {
-    platforms, sections
+    platforms, sections, others
 }
