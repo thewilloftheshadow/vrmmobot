@@ -14,8 +14,8 @@ const buttons = {
 }
 
 const rows = {
-    mmop: new MessageActionRow().addComponents(buttons.rust, buttons.ff14, buttons.bdo),
-    vrcp: new MessageActionRow().addComponents(buttons.altspacevr, buttons.vrchat, buttons.recroom),
+    mmop: new MessageActionRow().addComponents(buttons.rust, buttons.ff14),
+    vrcp: new MessageActionRow().addComponents(buttons.altspacevr, buttons.vrchat),
     sections: new MessageActionRow().addComponents(buttons.vrchurch, buttons.mmochurch),
     other: new MessageActionRow().addComponents(buttons.ff14spoilers),
 }
