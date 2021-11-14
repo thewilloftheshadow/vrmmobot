@@ -11,6 +11,7 @@ const buttons = {
     vrchurch: new MessageButton().setStyle("SUCCESS").setLabel("VR Church").setCustomId(`roletoggle:${ids.sections.vrchurch}`),
     mmochurch: new MessageButton().setStyle("SUCCESS").setLabel("MMO Church").setCustomId(`roletoggle:${ids.sections.mmochurch}`),
     ff14spoilers: new MessageButton().setStyle("DANGER").setLabel("FFXIV Spoilers").setCustomId(`roletoggle:${ids.others.ff14spoilers}`),
+    calendar: new MessageButton().setStyle("DANGER").setLabel("Toggle Calendar View").setCustomId(`roletoggle:${ids.others.calendar}`),
 }
 
 const rows = {
@@ -18,6 +19,7 @@ const rows = {
     vrcp: new MessageActionRow().addComponents(buttons.altspacevr, buttons.vrchat),
     sections: new MessageActionRow().addComponents(buttons.vrchurch, buttons.mmochurch),
     other: new MessageActionRow().addComponents(buttons.ff14spoilers),
+    calendar: new MessageActionRow().addComponents(buttons.calendar),
 }
 
 module.exports = {
