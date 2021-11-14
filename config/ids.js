@@ -14,6 +14,7 @@ const sections = {
 
 const others = {
     ff14spoilers: "870090774585442364",
+    calendar: "909518005766090792",
 }
 
 
